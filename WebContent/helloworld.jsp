@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
@@ -14,7 +14,7 @@
 	int sum = num1 + num2;
 	System.out.println(sum);
 %>	
-<%=sum %>
-<a href= "http://localhost:8080/web-study-01/AdditonServelet01?num1=30&num2=40">전송</a>
+<%=sum %> <!-- System.out.println(sum);-->
+<a href= "http://localhost:8080/web-study-01/AdditionServlet01?num1=7&num2=8&no=6&name=intern">�쟾�넚</a>
 </body>
 </html>
