@@ -9,7 +9,10 @@
 <body>
 	<h1>계산결과!</h1>
 	
+
 ${num1} + ${num2} = ${add}
+
+
 
 ${list}
 </body>

@@ -9,7 +9,11 @@ public class JdbcUtil {
 		Connection conn = null;
 		try {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
+<<<<<<< HEAD
 			String url = "jdbc:oracle:thin:@localhost:1521:xe?useSSL=false";
+=======
+			String url = "jdbc:oracle:thin:@localhost:1521:orcl?useSSL=false";
+>>>>>>> branch 'master' of https://github.com/Jason-web1988/web-study-01.git
 			String user = "erd_study";
 			String password = "rootroot";
 			conn = DriverManager.getConnection(url, user, password);

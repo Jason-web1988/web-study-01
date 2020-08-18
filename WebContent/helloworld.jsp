@@ -15,6 +15,8 @@
 	System.out.println(sum);
 %>	
 <%=sum %> <!-- System.out.println(sum);-->
+
 <a href= "http://localhost:8000/web-study-01/AdditionServlet01?num1=7&num2=8&no=6&name=intern">전송</a>
+
 </body>
 </html>
