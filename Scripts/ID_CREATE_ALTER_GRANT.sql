@@ -1,0 +1,21 @@
+--사용자 계정추가
+CREATE USER EXAM01 IDENTIFIED BY roootroot;
+
+-- 패스워드 변경하기
+ALTER USER EXAM01
+IDENTIFIED BY rootroot;
+
+
+--권한부여
+GRANT CONNECT, RESOURCE, CREATE VIEW, CREATE SYNONYM TO EXAM01;
+
+
+
+
+--사용자 계정추가
+CREATE USER erd_study IDENTIFIED BY rootroot;
+
+--권한부여
+GRANT CONNECT, RESOURCE, CREATE VIEW, CREATE SYNONYM TO erd_study;
+
+
